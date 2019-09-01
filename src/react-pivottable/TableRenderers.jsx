@@ -299,7 +299,7 @@ function makeRenderer(opts = {}) {
   TableRenderer.defaultProps.tableColorScaleGenerator = redColorScaleGenerator;
   TableRenderer.defaultProps.tableOptions = {};
   //TableRenderer.propTypes.tableColorScaleGenerator = PropTypes.func;
-  TableRenderer.propTypes.tableOptions = PropTypes.object;
+  //TableRenderer.propTypes.tableOptions = PropTypes.object;
   return TableRenderer;
 }
 
